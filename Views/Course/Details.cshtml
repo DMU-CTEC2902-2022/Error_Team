@@ -1,0 +1,76 @@
+﻿@model Error_Collage.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<center>  <h1 class = " detailtitlediv">  @Html.DisplayFor(model => model.CourseName) </h1> </center>
+
+
+    <div class="detaildiv" >
+        <center>
+
+            <h4>
+
+            <dl class="dl-horizontal">
+                <dt class="footer2">
+                    @Html.DisplayNameFor(model => model.CourseName)
+                </dt>
+
+                <dd class="detail">
+                    @Html.DisplayFor(model => model.CourseName)
+                </dd>
+
+                <dt class="detail" >
+                    @Html.DisplayNameFor(model => model.CourseCode)
+                </dt>
+
+                <dd class="footer2">
+                    @Html.DisplayFor(model => model.CourseCode)
+                </dd>
+
+                <dt class="footer2">
+                    @Html.DisplayNameFor(model => model.CourseFeildType)
+                </dt>
+
+                <dd class="detail">
+                    @Html.DisplayFor(model => model.CourseFeildType)
+                </dd>
+
+                <dt class="detail">
+                    @Html.DisplayNameFor(model => model.CourseType)
+                </dt>
+
+                <dd class="footer2">
+                    @Html.DisplayFor(model => model.CourseType)
+                </dd >
+
+                <dt class="footer2">
+                    @Html.DisplayNameFor(model => model.Faculty)
+                </dt>
+
+                <dd class="detail" >
+                    @Html.DisplayFor(model => model.Faculty)
+                </dd>
+
+                <dt class="detail">
+                    @Html.DisplayNameFor(model => model.CourseDescription)
+                </dt>
+
+                <dd class="footer2">
+                    @Html.DisplayFor(model => model.CourseDescription)
+                </dd>
+
+            </dl>
+                </h4>
+        </center>
+</div>
+    <Center>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.CourseId, @class = "footer2" }) //
+
+            @Html.ActionLink("Back to List", "Index", new { @class = "footer2" })
+        </p>
+    </Center>
