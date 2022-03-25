@@ -10,12 +10,19 @@ Take a tour to our [WIKI](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki) 
 
 
 # Submissions
-- Individual Presentation || Week 25 Lab Session (w/c: 21/03/22) 
-- [Final Project Submission](https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_599194_1&content_id=_5681433_1) || Friday 15th April 2022 (Week 30), 16:00 (4pm)
+- Individual Presentation | Week 25 Lab Session (w/c: 21/03/22) 
+- [Final Project Submission](https://vle.dmu.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_599194_1&content_id=_5681433_1) |Friday 15th April 2022 
 
 
-Wiki
+# Wiki 
+1- [**Homepage**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki)  
+2- [**Documentation/Diagrams**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki/Diagrams) 
 
-Documentation
 
-Individual Wiki
+# Individual Wiki
+- [**Nabeel's Wiki**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki/Nabeel's-Wiki)  
+- [**Husen's Wiki**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki/Husen-Wiki)  
+- [**Raj's Wiki**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki/Raj-Patel) 
+
+
+![To be Continue....](https://images.app.goo.gl/gcztuUwiciiwagfh7)
