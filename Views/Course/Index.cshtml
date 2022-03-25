@@ -7,8 +7,8 @@
 <center>
     <h1 class="footer2" margin-top="70px">Courses</h1>
 
-    <p >
-        @Html.ActionLink("Create New", "Create",  new { @class="detail"})
+    <p class="newdiv">
+        @Html.ActionLink("Create New", "Create")
     </p>
 </center>
 <table class="table">
@@ -35,31 +35,31 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
-        <td >
-            @Html.DisplayFor(modelItem => item.CourseName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseCode)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseFeildType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Faculty)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseDescription)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CourseId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CourseId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CourseId })
-        </td>
-    </tr>
+<tr class="courseindex">
+    <td style="background-color:#efd1f0">
+        @Html.DisplayFor(modelItem => item.CourseName)
+    </td>
+    <td style="background-color:lightyellow ">
+        @Html.DisplayFor(modelItem => item.CourseCode)
+    </td>
+    <td style="background-color: #b7edf7">
+        @Html.DisplayFor(modelItem => item.CourseFeildType)
+    </td>
+    <td style="background-color:#efd1f0 ">
+        @Html.DisplayFor(modelItem => item.CourseType)
+    </td>
+    <td style="background-color:lightyellow">
+        @Html.DisplayFor(modelItem => item.Faculty)
+    </td>
+    <td style="background-color: #b7edf7">
+        @Html.DisplayFor(modelItem => item.CourseDescription)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.CourseId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.CourseId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.CourseId })
+    </td>
+</tr>
 }
 
 </table>
