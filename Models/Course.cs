@@ -8,7 +8,7 @@ namespace Error_Collage.Models
     public class Course
     {
         public virtual int CourseId { get; set; }
-        temporarily tests
+        
 
         public virtual string CourseName { get; set; }
     
