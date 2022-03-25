@@ -25,4 +25,3 @@ Take a tour to our [WIKI](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki) 
 - [**Raj's Wiki**](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki/Raj-Patel) 
 
 
-![To be Continue....](https://images.app.goo.gl/gcztuUwiciiwagfh7)
