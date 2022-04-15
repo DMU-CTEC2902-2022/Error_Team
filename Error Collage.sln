@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error Collage", "Error Collage.csproj", "{CA656112-6890-483A-A4ED-D1F53FD8CE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error Collage.Tests", "..\Error Collage.Tests\Error Collage.Tests.csproj", "{9AA69081-A5F1-4403-B40E-EE18FD4E3FAE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{CA656112-6890-483A-A4ED-D1F53FD8CE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA656112-6890-483A-A4ED-D1F53FD8CE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA656112-6890-483A-A4ED-D1F53FD8CE27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AA69081-A5F1-4403-B40E-EE18FD4E3FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AA69081-A5F1-4403-B40E-EE18FD4E3FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AA69081-A5F1-4403-B40E-EE18FD4E3FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AA69081-A5F1-4403-B40E-EE18FD4E3FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
