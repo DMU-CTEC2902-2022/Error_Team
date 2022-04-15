@@ -5,8 +5,18 @@
 }
 
 
+<div class="detailbutton">
+ 
+    <button> <mark> <a href="/Faculties/Index">Faculty</a> </mark></button>
+        <p>
 
+        </p>
+        
+    <button> <mark> <a href="/Modules/Index">Modules</a> </mark></button>
+     
+</div>
 <center>  <h1 class = " detailtitlediv">  @Html.DisplayFor(model => model.CourseName) </h1> </center>
+
 
 
     <div class="detaildiv" >
@@ -72,5 +82,7 @@
             @Html.ActionLink("Edit", "Edit", new { id = Model.CourseId, @class = "footer2" }) //
 
             @Html.ActionLink("Back to List", "Index", new { @class = "footer2" })
+
+          
         </p>
     </Center>

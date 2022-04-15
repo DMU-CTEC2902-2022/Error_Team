@@ -8,7 +8,6 @@ namespace Error_Collage.Models
     public class Course
     {
         public virtual int CourseId { get; set; }
-        
 
         public virtual string CourseName { get; set; }
     

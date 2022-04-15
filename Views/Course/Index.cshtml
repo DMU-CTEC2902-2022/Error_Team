@@ -3,6 +3,12 @@
 @{
     ViewBag.Title = "Index";
 }
+<div class="adtleft">
+    <img scr="https://images.app.goo.gl/gv7QFAdbKn3bqfhTA" width="150" height="300" alt="Advertisement">
+</div>
+<div class="adtright">
+    <img scr="https://images.app.goo.gl/wYmATVibGkzi8X51A" width="150" height="300" alt="Advertisement">
+</div>
 
 <center>
     <h1 class="footer2" margin-top="70px">Courses</h1>
@@ -13,7 +19,7 @@
 </center>
 <table class="table">
     <tr class="detail">
-        <th >
+        <th>
             @Html.DisplayNameFor(model => model.CourseName)
         </th>
         <th>
@@ -34,6 +40,7 @@
         <th></th>
     </tr>
 
+<<<<<<< Updated upstream
 @foreach (var item in Model) {
     <tr>
         <td >
@@ -61,5 +68,37 @@
         </td>
     </tr>
 }
+=======
+    @foreach (var item in Model)
+    {
+        <tr class="courseindex">
+            <td style="background-color:#efd1f0">
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td style="background-color:lightyellow ">
+                @Html.DisplayFor(modelItem => item.CourseCode)
+            </td>
+            <td style="background-color: #b7edf7">
+                @Html.DisplayFor(modelItem => item.CourseFeildType)
+            </td>
+            <td style="background-color:#efd1f0 ">
+                @Html.DisplayFor(modelItem => item.CourseType)
+            </td>
+            <td style="background-color:lightyellow">
+                @Html.DisplayFor(modelItem => item.Faculty)
+            </td>
+            <td style="background-color: #b7edf7">
+                @Html.DisplayFor(modelItem => item.CourseDescription)
+            </td>
+            <td>
+
+
+                @Html.ActionLink("Details", "Details", new { id = item.CourseId }) |
+
+
+            </td>
+        </tr>
+    }
+>>>>>>> Stashed changes
 
 </table>
