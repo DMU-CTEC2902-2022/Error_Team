@@ -129,17 +129,13 @@
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\FacultiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ModulesController.cs" />
     <Compile Include="Data\CourseContext.cs" />
     <Compile Include="Data\FacultyContext.cs" />
-    <Compile Include="Data\ModuleContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Faculty.cs" />
-    <Compile Include="Models\Mod.cs" />
     <Compile Include="Models\Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
