@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Error_Collage.Models.Faculty>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="adtleft">
+    <img scr="https://images.app.goo.gl/gv7QFAdbKn3bqfhTA" width="150" height="300" alt="Advertisement">
+</div>
+<div class="adtright">
+    <img scr="https://images.app.goo.gl/wYmATVibGkzi8X51A" width="150" height="300" alt="Advertisement">
+</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th style="background-color:lightyellow ">
+            @Html.DisplayNameFor(model => model.FacultyName)
+        </th>
+        <th style="background-color:#efd1f0">
+            @Html.DisplayNameFor(model => model.TeachingFeild)
+        </th>
+        <th style="background-color:lightyellow ">
+            @Html.DisplayNameFor(model => model.Qualification)
+        </th>
+        <th style="background-color:#efd1f0" >
+            @Html.DisplayNameFor(model => model.Deccription)
+        </th >
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr class="courseindex">
+    <td style="background-color:#efd1f0">
+        @Html.DisplayFor(modelItem => item.FacultyName)
+    </td>
+    <td style="background-color:lightyellow ">
+        @Html.DisplayFor(modelItem => item.TeachingFeild)
+    </td>
+    <td style="background-color: #b7edf7">
+        @Html.DisplayFor(modelItem => item.Qualification)
+    </td>
+    <td style="background-color:#efd1f0 ">
+        @Html.DisplayFor(modelItem => item.Deccription)
+    </td>
+    
+    <td>
+
+        @Html.ActionLink("Details", "Details", new { id = item.FacultyId }) |
+
+    </td>
+</tr>
+    }
+
+</table>
