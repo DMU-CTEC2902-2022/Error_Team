@@ -13,8 +13,8 @@
 <center>
     <h1 class="footer2" margin-top="70px">Courses</h1>
 
-    <p >
-        @Html.ActionLink("Create New", "Create",  new { @class="detail"})
+    <p class="newdiv">
+        @Html.ActionLink("Create New", "Create")
     </p>
 </center>
 <table class="table">
@@ -39,9 +39,6 @@
         </th>
         <th></th>
     </tr>
-
-
- 
 
     @foreach (var item in Model)
     {
@@ -73,6 +70,5 @@
             </td>
         </tr>
     }
-
 
 </table>
