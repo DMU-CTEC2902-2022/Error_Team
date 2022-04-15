@@ -40,35 +40,9 @@
         <th></th>
     </tr>
 
-<<<<<<< Updated upstream
-@foreach (var item in Model) {
-    <tr>
-        <td >
-            @Html.DisplayFor(modelItem => item.CourseName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseCode)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseFeildType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Faculty)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseDescription)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CourseId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CourseId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CourseId })
-        </td>
-    </tr>
-}
-=======
+
+ 
+
     @foreach (var item in Model)
     {
         <tr class="courseindex">
@@ -99,6 +73,6 @@
             </td>
         </tr>
     }
->>>>>>> Stashed changes
+
 
 </table>
