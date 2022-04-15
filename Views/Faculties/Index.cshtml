@@ -11,49 +11,52 @@
 <div class="adtright">
     <img scr="https://images.app.goo.gl/wYmATVibGkzi8X51A" width="150" height="300" alt="Advertisement">
 </div>
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th style="background-color:lightyellow ">
-            @Html.DisplayNameFor(model => model.FacultyName)
-        </th>
-        <th style="background-color:#efd1f0">
-            @Html.DisplayNameFor(model => model.TeachingFeild)
-        </th>
-        <th style="background-color:lightyellow ">
-            @Html.DisplayNameFor(model => model.Qualification)
-        </th>
-        <th style="background-color:#efd1f0" >
-            @Html.DisplayNameFor(model => model.Deccription)
-        </th >
-        
-        <th></th>
-    </tr>
+<center>
+    <h1 class="footer2" margin-top="70px">Faculties</h1>
 
-    @foreach (var item in Model)
-    {
-<tr class="courseindex">
-    <td style="background-color:#efd1f0">
-        @Html.DisplayFor(modelItem => item.FacultyName)
-    </td>
-    <td style="background-color:lightyellow ">
-        @Html.DisplayFor(modelItem => item.TeachingFeild)
-    </td>
-    <td style="background-color: #b7edf7">
-        @Html.DisplayFor(modelItem => item.Qualification)
-    </td>
-    <td style="background-color:#efd1f0 ">
-        @Html.DisplayFor(modelItem => item.Deccription)
-    </td>
-    
-    <td>
+    <p class="newdiv">
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th style="background-color:lightyellow ">
+                @Html.DisplayNameFor(model => model.FacultyName)
+            </th>
+            <th style="background-color:#c8f2a5">
+                @Html.DisplayNameFor(model => model.TeachingFeild)
+            </th>
+            <th style="background-color:lightyellow ">
+                @Html.DisplayNameFor(model => model.Qualification)
+            </th>
+            <th style="background-color:#c8f2a5">
+                @Html.DisplayNameFor(model => model.Deccription)
+            </th>
 
-        @Html.ActionLink("Details", "Details", new { id = item.FacultyId }) |
+            <th></th>
+        </tr>
 
-    </td>
-</tr>
-    }
+        @foreach (var item in Model)
+        {
+            <tr class="courseindex">
+                <td style="background-color:#c8f2a5">
+                    @Html.DisplayFor(modelItem => item.FacultyName)
+                </td>
+                <td style="background-color:lightyellow ">
+                    @Html.DisplayFor(modelItem => item.TeachingFeild)
+                </td>
+                <td style="background-color: #b7edf7">
+                    @Html.DisplayFor(modelItem => item.Qualification)
+                </td>
+                <td style="background-color:#c8f2a5 ">
+                    @Html.DisplayFor(modelItem => item.Deccription)
+                </td>
 
-</table>
+                <td>
+
+                    @Html.ActionLink("Details", "Details", new { id = item.FacultyId }) |
+
+                </td>
+            </tr>
+        }
+
+    </table>

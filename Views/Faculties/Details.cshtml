@@ -16,6 +16,7 @@
 <center>  <h1 class=" detailtitlediv">  @Html.DisplayFor(model => model.FacultyName) </h1> </center>
 
 
+
 <div class="detaildiv">
     <center>
 
@@ -54,12 +55,11 @@
                     @Html.DisplayFor(model => model.Deccription)
                 </dd>
 
-
             </dl>
         </h4>
     </center>
 </div>
 <p>
-
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FacultyId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
