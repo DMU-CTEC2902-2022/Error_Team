@@ -4,7 +4,7 @@
 
 <div>Click on Image to view in better format</div>
 
-[<img align="center" src="https://raw.githubusercontent.com/DMU-CTEC2902-2022/Error_Team/main/Screenshot%202022-03-25%20115032.png" width="700" height="400" >](https://github.com/DMU-CTEC2902-2022/Error_Team/blob/main/timeline.pdf) <br>
+[<img align="center" src="https://user-images.githubusercontent.com/92983631/163523338-7290d3fd-488a-4795-800c-47dc446347e0.png" width="700" height="400" >](https://github.com/DMU-CTEC2902-2022/Error_Team/blob/main/timeline.pdf) <br>
 
 
 Take a tour to our [WIKI](https://github.com/DMU-CTEC2902-2022/Error_Team/wiki) page 
